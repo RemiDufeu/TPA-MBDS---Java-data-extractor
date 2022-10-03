@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ExtractionDataTPA" />
         <module name="TPA-MBDS---Java-data-extractor" />
+        <module name="MONGODB" />
       </profile>
     </annotationProcessing>
   </component>
