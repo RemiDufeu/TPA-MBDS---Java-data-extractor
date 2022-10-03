@@ -31,7 +31,7 @@ public class Main {
         ArrayList<String[]> catalogueArr = new ArrayList<String[]>();
 
         try {
-            catalogueArr = getCSV("C:/Users/dufeu/Documents/Codage/ExtractionDataTPA/M2_DMA_Catalogue/Catalogue.csv");
+            catalogueArr = getCSV("C:\\Users\\Romain\\grails\\TPA-MBDS---Java-data-extractor\\M2_DMA_Catalogue\\Catalogue.csv");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (UnsupportedEncodingException e) {
